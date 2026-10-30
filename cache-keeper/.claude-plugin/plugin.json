@@ -1,0 +1,1 @@
+{ "name": "cache-keeper", "version": "0.1.0", "description": "Cache meter above the prompt with refresh, keep-warm, compress, and a one-press handoff to continue in a new session.", "types": "./types/index.d.ts" }

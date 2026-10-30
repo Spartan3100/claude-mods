@@ -1,0 +1,5 @@
+# Written by the engine on load; every machine makes its own.
+**/.claude-plugin/types/
+node_modules/
+# Runtime state and logs a mod writes while running.
+**/.claude/

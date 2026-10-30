@@ -1,0 +1,6 @@
+{
+  "name": "mods-panel",
+  "version": "0.1.0",
+  "description": "A Mods button above the prompt opens a side panel that explains each mod and switches it on or off for this project or just this chat",
+  "types": "./types/index.d.ts"
+}

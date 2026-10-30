@@ -1,0 +1,6 @@
+{
+  "name": "effort-advisor",
+  "version": "0.1.0",
+  "description": "Rates each new prompt's effort and offers to switch before Claude starts, so easy tasks spend fewer tokens and hard ones get enough thinking",
+  "types": "./types/index.d.ts"
+}
