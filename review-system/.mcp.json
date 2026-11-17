@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/runtime/node_modules/@playwright/mcp/cli.js", "--isolated", "--headless", "--output-dir", "${CLAUDE_PLUGIN_ROOT}/runtime/output"]
+    }
+  }
+}

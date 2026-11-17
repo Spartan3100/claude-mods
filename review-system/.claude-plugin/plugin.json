@@ -1,0 +1,5 @@
+{
+  "name": "review-system",
+  "version": "0.1.0",
+  "description": "Evals-first build and review loop modeled on the Claude Code team's process: risk rating, approved evals and mockups, builder/verifier/reviewer rounds, REVIEW.md learned rules, a code-blind first-time-user test, and fix-a-bug on per-feature Git branches."
+}

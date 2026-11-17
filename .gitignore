@@ -3,3 +3,5 @@
 node_modules/
 # Runtime state and logs a mod writes while running.
 **/.claude/
+# Playwright output the review-system MCP server writes.
+review-system/runtime/output/

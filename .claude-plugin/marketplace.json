@@ -1,0 +1,27 @@
+{
+  "name": "claude-mods",
+  "owner": {
+    "name": "Spartan3100"
+  },
+  "description": "Every mod in this repo, in one marketplace: the personal mods at the top level plus the bundled benai-mods collection. Point cloud sessions or org managed settings at this repo to load them.",
+  "plugins": [
+    { "name": "cache-keeper", "source": "./cache-keeper", "description": "Cache meter above the prompt with refresh, keep-warm, compress, and a one-press handoff to continue in a new session.", "version": "0.1.0" },
+    { "name": "close-out-check", "source": "./close-out-check", "description": "After each turn that changed code, flags a stale CHANGELOG / version / handoff note and offers a one-press fix.", "version": "0.1.0" },
+    { "name": "effort-advisor", "source": "./effort-advisor", "description": "Rates each new prompt's effort and offers to switch before Claude starts.", "version": "0.1.0" },
+    { "name": "mods-panel", "source": "./mods-panel", "description": "A Mods button above the prompt opens a side panel that switches each mod on or off.", "version": "0.1.0" },
+    { "name": "review-system", "source": "./review-system", "description": "Evals-first build and review loop: risk rating, approved evals and mockups, builder/verifier/reviewer rounds, a first-time-user test, and fix-a-bug.", "version": "0.1.0" },
+    { "name": "ship-it", "source": "./ship-it", "description": "Expands a bare 'deploy it' / 'ship it' / 'merge it' into the full commit-PR-merge-deploy-verify checklist." },
+    { "name": "usage-guard", "source": "./usage-guard", "description": "Keeps rate-limit usage in the status line, warns before agent fan-out near a limit, and blocks it at the edge." },
+    { "name": "where-are-we", "source": "./where-are-we", "description": "At session start, shows branch, dirty files, upstream changes, PR state, gh auth and dev servers in a band.", "version": "0.1.0" },
+
+    { "name": "brain-dump", "source": "./benai-mods/plugins/brain-dump", "description": "Shapes a long, loose prompt into a four-part brief.", "version": "0.2.0" },
+    { "name": "cache-clock", "source": "./benai-mods/plugins/cache-clock", "description": "Counts down until the chat's prompt cache goes cold, above the prompt.", "version": "0.3.0" },
+    { "name": "chat-inventory", "source": "./benai-mods/plugins/chat-inventory", "description": "A side pane listing the to-do list, connectors, context files and skills this chat used.", "version": "0.2.0" },
+    { "name": "handoff", "source": "./benai-mods/plugins/handoff", "description": "At 250k tokens, offers Refresh: writes a handoff of the whole chat and starts a new chat with it.", "version": "0.1.0" },
+    { "name": "helper-desk", "source": "./benai-mods/plugins/helper-desk", "description": "A task progress bar above the prompt and a side pane with one live card per subagent.", "version": "0.4.0" },
+    { "name": "mods", "source": "./benai-mods/plugins/mods", "description": "A Mods pane that finds every mod and turns each one on or off.", "version": "0.3.0" },
+    { "name": "reflect", "source": "./benai-mods/plugins/reflect", "description": "When you correct Claude, offers to save the fix as a lasting rule.", "version": "0.1.0" },
+    { "name": "replay-theater", "source": "./benai-mods/plugins/replay-theater", "description": "Step through the file edits Claude made in the last turn, one diff at a time.", "version": "0.1.0" },
+    { "name": "screen-share", "source": "./benai-mods/plugins/screen-share", "description": "/screen-share draws emails, phone numbers, money amounts and names as shaded bars on screen for recording.", "version": "0.2.0" }
+  ]
+}
